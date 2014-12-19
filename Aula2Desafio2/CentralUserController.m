@@ -20,7 +20,7 @@
     
     UINavigationController *nav =[[UINavigationController alloc]init];
     
-    //self.title = @"Anuncios";
+    self.title = @"Anuncios";
     
     [self addChildViewController:nav];
 }
