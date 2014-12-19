@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "872EAF58192A86C70014523C"
-               BuildableName = "Aula2Desafio2.app"
-               BlueprintName = "Aula2Desafio2"
-               ReferencedContainer = "container:Aula2Desafio2.xcodeproj">
+               BuildableName = "AppRural.app"
+               BlueprintName = "AppRural"
+               ReferencedContainer = "container:AppRural.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "872EAF73192A86C70014523C"
-               BuildableName = "Aula2Desafio2Tests.xctest"
-               BlueprintName = "Aula2Desafio2Tests"
-               ReferencedContainer = "container:Aula2Desafio2.xcodeproj">
+               BuildableName = "AppRuralTests.xctest"
+               BlueprintName = "AppRuralTests"
+               ReferencedContainer = "container:AppRural.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "872EAF58192A86C70014523C"
-            BuildableName = "Aula2Desafio2.app"
-            BlueprintName = "Aula2Desafio2"
-            ReferencedContainer = "container:Aula2Desafio2.xcodeproj">
+            BuildableName = "AppRural.app"
+            BlueprintName = "AppRural"
+            ReferencedContainer = "container:AppRural.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "872EAF58192A86C70014523C"
-            BuildableName = "Aula2Desafio2.app"
-            BlueprintName = "Aula2Desafio2"
-            ReferencedContainer = "container:Aula2Desafio2.xcodeproj">
+            BuildableName = "AppRural.app"
+            BlueprintName = "AppRural"
+            ReferencedContainer = "container:AppRural.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "872EAF58192A86C70014523C"
-            BuildableName = "Aula2Desafio2.app"
-            BlueprintName = "Aula2Desafio2"
-            ReferencedContainer = "container:Aula2Desafio2.xcodeproj">
+            BuildableName = "AppRural.app"
+            BlueprintName = "AppRural"
+            ReferencedContainer = "container:AppRural.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

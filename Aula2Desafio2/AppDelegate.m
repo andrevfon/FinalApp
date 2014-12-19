@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "CentralUserController.h"
+#import "CentralAnuncioViewController.h"
+#import "GaleriaController.h"
+#import "ConfigController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +18,43 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    //aqui criamos as views
+    CentralUserController *viewUser = [[CentralUserController alloc]init];
+    CentralAnuncioViewController *viewAnuncio = [[CentralAnuncioViewController alloc]init];
+    GaleriaController *viewGaleria = [[GaleriaController alloc]init];
+    ConfigController *viewConfig = [[ConfigController alloc]init];
+
+    
+    
+    NSMutableArray *tabs = [[NSMutableArray alloc]init];
+    
+    
+    //cria a tabbar, que vai ser a rootViewController
+    UITabBarController *tab = [[UITabBarController alloc]init];
+    
+    //seta a cor da tabbar background
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:142/255 green:142/255 blue:147/255 alpha:5]];
+    
+    //seta a cor dos tabbar icon quando selecionado
+    tab.view.tintColor = [UIColor grayColor];
+    
+    //cria a navigationController e inicia ela com uma view Controller
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewUser];
+    UINavigationController *nav2 =[[UINavigationController alloc]initWithRootViewController:viewAnuncio];
+    UINavigationController *nav3 =[[UINavigationController alloc]initWithRootViewController:viewGaleria];
+    UINavigationController *nav4 =[[UINavigationController alloc]initWithRootViewController:viewConfig];
+    
+    
+    
+    [tabs addObject:nav2];
+    [tabs addObject:nav];
+    [tabs addObject:nav3];
+    [tabs addObject:nav4];
+    tab.viewControllers = tabs;
+    
+    self.window.rootViewController = tab;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Aula2Desafio2.xcodeproj">
+      location = "self:AppRural.xcodeproj">
    </FileRef>
 </Workspace>
